@@ -20,10 +20,12 @@ const AboutUs = () => {
         <div className="flex flex-col items-center lg:flex-row gap-5 md:space-x-12">
           {/* image */}
           <div className="w-full lg:w-1/2">
-            <img
+            <Image
               src="/assets/img7.jpg"
               alt="about_image"
               className="about-image"
+              height={500}
+              width={500}
             />
           </div>
           {/* content */}
@@ -53,10 +55,12 @@ const AboutUs = () => {
         <div className="flex flex-col items-center lg:flex-row-reverse gap-5 ">
           {/* image */}
           <div className="w-full lg:w-1/2">
-            <img
+            <Image
               src="/assets/img6.jpg"
               alt="about_image"
               className="about-image xl:w-full"
+              height={500}
+              width={500}
             />
           </div>
           {/* content */}

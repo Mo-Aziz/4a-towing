@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { RiDoubleQuotesR } from "react-icons/ri";
@@ -38,10 +39,12 @@ const Reviews = () => {
             <li className="review_card">
               <div className="flex flex-col gap-5 bg-gray-600 rounded-md p-6">
                 <div className="flex items-center">
-                  <img
+                  <Image
                     src="/assets/review.png"
                     alt="review default image"
                     className="rounded-full border-none w-12 h-12"
+                    width={48}
+                    height={48}
                   />
                   <div className="ml-2">
                     <p className="text-yellow-500 uppercase ">Emily Woolley</p>
@@ -64,10 +67,12 @@ const Reviews = () => {
             <li className="review_card">
               <div className="flex flex-col gap-5 bg-gray-600 rounded-md p-6">
                 <div className="flex items-center">
-                  <img
+                  <Image
                     src="/assets/review.png"
                     alt="review default image"
                     className="rounded-full border-none w-12 h-12"
+                    width={48}
+                    height={48}
                   />
                   <div className="ml-2">
                     <p className="text-yellow-500 uppercase ">Rick Vasquez</p>
@@ -88,10 +93,12 @@ const Reviews = () => {
             <li className="review_card">
               <div className="flex flex-col gap-5 bg-gray-600 rounded-md p-6">
                 <div className="flex items-center">
-                  <img
+                  <Image
                     src="/assets/review.png"
                     alt="review default image"
                     className="rounded-full border-none w-12 h-12"
+                    width={48}
+                    height={48}
                   />
                   <div className="ml-2">
                     <p className="text-yellow-500 uppercase ">LANA STUBBLE</p>
@@ -113,10 +120,12 @@ const Reviews = () => {
             <li className="review_card ">
               <div className="flex flex-col gap-5 bg-gray-600 rounded-md p-6">
                 <div className="flex items-center">
-                  <img
+                  <Image
                     src="/assets/review.png"
                     alt="review default image"
                     className="rounded-full border-none w-12 h-12"
+                    width={48}
+                    height={48}
                   />
                   <div className="ml-2">
                     <p className="text-yellow-500 uppercase ">Felix M</p>

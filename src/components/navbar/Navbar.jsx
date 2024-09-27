@@ -38,13 +38,13 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <a href="/">
+      <Link href="/">
         <div className="flex flex-col gap-3 items-center text-blue-600">
           {" "}
           <p className="font-extrabold text-6xl"> 4A </p>
           <p className="font-bold text-3xl">Towing Services LLC.</p>
         </div>
-      </a>
+      </Link>
       {/* navagation menu */}
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li className="nav-hover uppercase">
@@ -75,7 +75,7 @@ const Navbar = () => {
         </li>
 
         <li className="nav-hover  ">
-          <a href="tel:+1512 590 5050">
+          <Link href="tel:+1512 590 5050">
             <button
               className={clsx(
                 "btn",
@@ -84,7 +84,7 @@ const Navbar = () => {
             >
               <span>Call Us </span> <IoIosCall className="text-xl" />
             </button>
-          </a>
+          </Link>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>

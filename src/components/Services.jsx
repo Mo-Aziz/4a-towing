@@ -2,6 +2,7 @@ import { FaGasPump } from "react-icons/fa";
 import { BiSolidCarCrash } from "react-icons/bi";
 import { GiFlatTire } from "react-icons/gi";
 import { FaUserLock } from "react-icons/fa";
+import Image from "next/image";
 
 function Services() {
   return (
@@ -28,10 +29,12 @@ function Services() {
               quickly and safely.
             </p>
             <div>
-              <img
+              <Image
                 src="/assets/srvc1.jpg"
                 alt="refuel"
                 className="rounded-md"
+                height={240}
+                width={240}
               />
             </div>
           </div>
@@ -48,10 +51,12 @@ function Services() {
             </p>
 
             <div className="">
-              <img
+              <Image
                 src="/assets/srvc2.jpg"
                 alt="refuel"
                 className="rounded-md "
+                height={240}
+                width={240}
               />
             </div>
           </div>
@@ -69,10 +74,12 @@ function Services() {
             </p>
 
             <div>
-              <img
+              <Image
                 src="/assets/srvc3.jpg"
                 alt="refuel"
                 className="rounded-md"
+                height={240}
+                width={240}
               />
             </div>
           </div>
@@ -90,10 +97,12 @@ function Services() {
             </p>
 
             <div>
-              <img
+              <Image
                 src="/assets/srvc4.jpg"
                 alt="refuel"
                 className="rounded-md"
+                height={240}
+                width={240}
               />
             </div>
           </div>

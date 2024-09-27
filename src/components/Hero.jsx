@@ -58,6 +58,8 @@ function Hero() {
               src={img1}
               alt="4a towing services"
               className="rounded-md border border-yellow-400 shadow-xl shadow-blue-500"
+              width={500}
+              height={500}
             />
           </div>
         </div>
