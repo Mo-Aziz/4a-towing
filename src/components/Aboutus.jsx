@@ -58,7 +58,7 @@ const AboutUs = () => {
             <Image
               src="/assets/img6.jpg"
               alt="about_image"
-              className="about-image xl:w-full"
+              className="about-image xl:w-full  sm:h-[250px] sm:w-[280px]"
               height={500}
               width={500}
             />

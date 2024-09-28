@@ -4,6 +4,7 @@ import clsx from "clsx";
 import img1 from "../../public/assets/img1.jpg";
 
 import Image from "next/image";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -34,15 +35,17 @@ function Hero() {
                   <span>Call Us Now </span> <IoIosCall className="text-xl" />
                 </button>
               </a>
-              <button
-                className={clsx(
-                  "btn",
-                  "flex  justify-center items-center gap-1 text-yellow-500 bg-transparent hover:scale-105 transform transition-all duration-300 ease-in-out "
-                )}
-              >
-                <span>Learn More</span>
-                <GiGiftOfKnowledge className="text-xl" />
-              </button>
+              <Link href="#about">
+                <button
+                  className={clsx(
+                    "btn",
+                    "flex  justify-center items-center gap-1 text-yellow-500 bg-transparent hover:scale-105 transform transition-all duration-300 ease-in-out "
+                  )}
+                >
+                  <span>Learn More</span>
+                  <GiGiftOfKnowledge className="text-xl" />
+                </button>
+              </Link>
             </div>
             {/* referral  */}
             <p className="text-sm font-jost">

@@ -31,7 +31,7 @@ const Popular = () => {
             <Image
               src="/assets/img2.jpg"
               alt="popular-service"
-              className="w-[16rem] absolute -top-8  right-3/4  -translate-x-8.5/99 -translate-y-1/4 rounded-lg
+              className="w-[16rem] absolute -top-8  right-1/4  -translate-x-8.5/99 -translate-y-1/4 rounded-lg
               shadow-2xl  shadow-yellow-500 transform transition-all duration-500"
               width={200}
               height={200}
@@ -63,7 +63,7 @@ const Popular = () => {
             <Image
               src="/assets/img3.jpg"
               alt="popular-service"
-              className="w-[16rem] absolute -top-8 left-3/4  -translate-x-8.5/9 -translate-y-1/4 rounded-lg
+              className="w-[16rem] absolute -top-8 left-1/4  -translate-x-8.5/9 -translate-y-1/4 rounded-lg
               shadow-2xl  shadow-blue-500 transform transition-all duration-500"
               width={200}
               height={200}
