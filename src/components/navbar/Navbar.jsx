@@ -39,10 +39,10 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link href="/">
-        <div className="flex flex-col gap-3 items-center text-blue-600">
+        <div className="flex flex-col sm:gap-1 gap-3 items-center text-blue-600">
           {" "}
-          <p className="font-extrabold text-6xl"> 4A </p>
-          <p className="font-bold text-3xl">Towing Services LLC.</p>
+          <p className="font-extrabold text-4xl lg:text-6xl  "> 4A </p>
+          <p className="font-bold text-2xl">Towing Services LLC.</p>
         </div>
       </Link>
       {/* navagation menu */}
