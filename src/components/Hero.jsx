@@ -25,7 +25,7 @@ function Hero() {
             </p>
             {/* buttons */}
             <div className="flex flex-col gap-2 sm:flex-row md:gap-4 lg:pt-5 xl:pt-10">
-              <a href="tel:+1512 590 5050">
+              <a href="tel:+15124361685">
                 <button
                   className={clsx(
                     "btn",

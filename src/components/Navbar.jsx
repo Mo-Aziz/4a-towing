@@ -75,7 +75,7 @@ const Navbar = () => {
         </li>
 
         <li className="nav-hover  ">
-          <Link href="tel:+1512 590 5050">
+          <Link href="tel:+15124361685">
             <button
               className={clsx(
                 "btn",

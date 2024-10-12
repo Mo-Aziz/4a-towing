@@ -20,7 +20,7 @@ const Footer = () => {
             </span>
           </p>
           <p className="font-semibold text-gray text-xs ">
-            Or call <span className="text-blue-600">512 590 5050</span>
+            Or call <span className="text-blue-600">512 43 616 85</span>
           </p>
         </div>
 
